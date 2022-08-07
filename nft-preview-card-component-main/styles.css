@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    border: solid hsl(216, 50%, 16%);
+    border-radius: 15px;
+    height: 530px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom: 300px;
+    ;
+    padding: 20px;
+}
+
+.img-1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Equilibrim {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.img-2 {
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    height: 0px;
+}
+
+.img-3 {
+    color: hsl(215, 51%, 70%);
+    text-align: right;
+}
+
+.hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.img-4 {
+    height: 30px;
+    width: 30px;
+    text-align: left;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.span-1 {
+    color: hsl(215, 51%, 70%);
+}
+
+
+span {
+    color: hsl(0, 0%, 100%);
+    margin-left: 10px;
+    margin-bottom: 90px;
+
+}
+
+@media screen and (max-width : 1440px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+
+    }
+
+}
